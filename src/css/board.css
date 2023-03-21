@@ -1,0 +1,65 @@
+.skills {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.card--window-board {
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid rgba(179, 179, 179, 0.642);
+    transition: .4s transform;
+    box-shadow: 2px 2px 5px #d3d3d3;
+    background: #1e1e1e;
+}
+
+.card--w-board-body {
+    height: 88%;
+    margin: .5rem;
+    /* position: relative; */
+}
+
+#sketch {
+    height: 100%;
+    width: 100%;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    touch-action: manipulation; */
+}
+
+#board {
+    height: 100%;
+    width: 100%;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10; */
+}
+
+.skills-text {
+    /* position: absolute; */
+    font-size: 40px;
+    color: white;
+    z-index: 0;
+    top: 0;
+}
+
+#clear-btn {
+    margin-left: auto;
+    padding: .5rem;
+    border-radius: 7px;
+    border: 1px solid rgba(128, 128, 128, 0.441);
+    background-color: rgb(221, 221, 221);
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#clear-btn:hover {
+    background-color: rgb(184, 184, 184);
+}

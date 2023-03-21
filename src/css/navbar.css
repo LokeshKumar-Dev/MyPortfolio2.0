@@ -1,0 +1,49 @@
+.nav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100vw;
+    max-height: 10vh;
+    border-bottom: 1px solid rgba(76, 76, 76, 0.113);
+    padding: 1rem .8rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    margin: 0 !important;
+    font-size: 2.3rem;
+    font-weight: 400;
+    font-family: 'Sacramento', cursive!important;
+    padding-left: .5rem;
+
+    display: flex;
+    align-items: baseline;
+}
+
+.nav__link {
+    border: none !important;
+    color: rgba(128, 128, 128, 0.679);
+    font-size: 1.1rem !important;
+    padding: 1rem !important;
+}
+
+.nav__link:hover {
+    background-color: rgba(203, 203, 203, 0.374) !important;
+    color: black !important;
+}
+
+.nav__link-icon{
+    font-size: 1.7rem!important;
+    cursor: pointer;
+}
+
+.nav__links-sidebar{
+    width: 40%!important;
+}
+
+.nav__links-sidebar > .item > .nav__link {
+    width: 100%!important;
+}

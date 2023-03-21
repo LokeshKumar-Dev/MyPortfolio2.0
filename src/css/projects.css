@@ -1,0 +1,206 @@
+.lh-55 {
+    line-height: 55px;
+}
+
+
+.projects {
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+.pro {
+    width: 50%;
+    border-radius: 1rem;
+    transition: width .9s;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.project-1:hover {
+    width: 80%;
+}
+
+.project-2:hover {
+    width: 80%;
+}
+
+.project-3:hover {
+    width: 80%;
+}
+
+/* START Background Image  */
+
+/* PROJECT 1 Background Image  */
+.project-1:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(160deg, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.231)), url(superService.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .3s cubic-bezier(.4, .4, 0, 1);
+    filter: brightness(0.4);
+}
+
+.project-1:hover:before {
+    transform: scale(1.1);
+}
+
+/* PROJECT 2 Background Image  */
+.project-2:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(162deg, rgb(20 6 177 / 85%), rgb(8 0 35 / 10%)), url(musify.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .3s cubic-bezier(.4, .4, 0, 1);
+    filter: brightness(0.4);
+}
+
+.project-2:hover:before {
+    transform: scale(1.1);
+}
+
+/* PROJECT 3 Background Image  */
+.project-3 {
+    background-color: orangered;
+}
+
+/* END Background Image  */
+
+.pro-title {
+    font-size: 400%;
+    font-weight: 900;
+}
+
+.wrapper {
+    max-width: 100%;
+    /* overflow: hidden; */
+}
+
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+}
+
+.marquee h3 {
+    display: inline-block;
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}
+
+.pro-btn {
+    width: 30%;
+    align-self: end;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    border: none;
+    font-size: .9rem;
+    font-weight: 100;
+    background: #ffffff16;
+    border: 1px solid black;
+    transition: all .3s;
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Animate BTN */
+.pro-btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+    background-color: rgba(149, 149, 149, 0.252);
+}
+
+.pro-btn:hover::after {
+    background-color: rgb(255, 255, 255);
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+/* Animate BTN */
+
+.bg-1 {
+    background-color: white;
+    /* transform: ; */
+}
+
+.pro-i {
+    color: white;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.bg-1>.pro-i {
+    color: black;
+    /* transform: ; */
+}
+
+/* DESCRIPTION  */
+.pro-box {
+    position: relative;
+    height: 60%;
+    min-height: max-content;
+    overflow: hidden;
+}
+
+.pro-description {
+    position: absolute;
+    transition: opacity .5s;
+    font-size: 1.3rem;
+}
+
+.pro-description>ul {}
+
+.pro-description>ul>li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem !important;
+    font-weight: 500;
+}
+
+
+.tr-d {
+    transition-delay: .5s;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+
+@import url("./css/navbar.css");
+@import url("./css/hero.css");
+@import url("./css/about.css");
+@import url("./css/projects.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+body>*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+a,
+li {
+  font-family: 'Exo', sans-serif !important;
+}
+
+.bg-w {
+  background-color: white !important;
+}
+
+.bg-b {
+  background-color: black !important;
+}
+
+.ft-w {
+  color: white !important;
+}
+
+.ft-b {
+  color: black !important;
+}
+
+.ft-u {
+  text-decoration: underline;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.cr-p {
+  cursor: pointer;
+}
+
+.op-1 {
+  opacity: 1;
+}
+
+.op-0 {
+  opacity: 0;
+}
+
+.tr-sc-2 {
+  transform: scale(1.5);
+}
+
+.tr-sc-2:hover {
+  transform: scale(1.5);
+}
+
+.tr-sc-1-2 {
+  transform: scale(1.2);
+}
+
+.tr-sc-1-2:hover {
+  transform: scale(1.2);
+}
+
+.tr-sc-1-1 {
+  transform: scale(1.1);
+}
+
+.tr-sc-1-1:hover {
+  transform: scale(1.1);
+}
+
+.cr-pen{
+  cursor: url('pen.png'), auto;
+}
+
+.btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: .8rem 2rem;
+  border-radius: 50rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px 3px 8px rgba(230, 88, 100, 0.234);
+  transition: .3s all;
+  border: 1px solid #00000026;
+}
+
+.btn:hover {
+  color: white !important;
+  box-shadow: 1px 3px 8px rgba(230, 88, 100, 0.805);
+  background-color: rgba(225, 10, 10, 0.863) !important;
+  transform: scale(1.02) translateY(-5px);
+}
+
+.container {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
