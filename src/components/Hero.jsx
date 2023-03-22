@@ -16,9 +16,23 @@ export default function Hero() {
             based on Chennai,India 🇮🇳
           </p>
           <div className="hero-1-links">
-            <Icon onClick={() => {}} name="github" className="nav__link-icon" />
             <Icon
-              onClick={() => {}}
+              onClick={() =>
+                window.open(
+                  "https://github.com/LokeshKumar-Dev?tab=repositories",
+                  "_blank"
+                )
+              }
+              name="github"
+              className="nav__link-icon"
+            />
+            <Icon
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/lokeshmkumar/",
+                  "_blank"
+                )
+              }
               name="linkedin"
               className="nav__link-icon"
             />

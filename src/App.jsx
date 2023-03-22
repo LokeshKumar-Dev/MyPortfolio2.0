@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 
 import { Icon, Button } from "semantic-ui-react";
@@ -15,6 +16,7 @@ export default function App() {
       <About/>
       <Projects/>
       <Skills/>
+      <Footer/>
     </>
   );
 }

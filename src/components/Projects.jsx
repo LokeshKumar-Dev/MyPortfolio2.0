@@ -27,10 +27,7 @@ export default function Projects() {
             onMouseEnter={() => setPro1(true)}
             onMouseLeave={() => setPro1(false)}
             onClick={() =>
-              window.open(
-                "https://www.instagram.com/__lokeshkumar.m__/",
-                "_blank"
-              )
+              window.open("https://superb-druid-5089a8.netlify.app/", "_blank")
             }
           >
             <h3 className="pro-title ft-u lh-55">
@@ -41,25 +38,36 @@ export default function Projects() {
             <div className="pro-box">
               <div className={"pro-description " + (!pro1 ? "op-1" : "op-0")}>
                 <ul>
+                  <li>ServiceApp</li>
                   <li>ReactJs</li>
-                  <li>Node</li>
-                  <li>Express</li>
+                  <li>Redux</li>
+                  <li>Axios</li>
+                  <li>Paypal</li>
+                  <li>Responsive</li>
                 </ul>
               </div>
               <p className={"pro-description tr-d " + (pro1 ? "op-1" : "op-0")}>
                 {pro1 === true ? (
                   <>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Labore sit non totam aut vel vero delectus sunt rerum Veniam
-                    vero repellat magnam quam delectus? Blanditiis, nam ut
-                    obcaecati dolore officiis consequuntur.
+                    It allows users to access a range of features and tools
+                    through their web browser, including customer management,
+                    scheduling, invoicing and customer relationship management
+                    (CRM).
                   </>
                 ) : (
                   ""
                 )}
               </p>
             </div>
-            <button className={"pro-btn cr-p " + (pro1 ? "bg-1" : "")}>
+            <button
+              className={"pro-btn cr-p " + (pro1 ? "bg-1" : "")}
+              onClick={() =>
+                window.open(
+                  "https://github.com/LokeshKumar-Dev/superservice",
+                  "_blank"
+                )
+              }
+            >
               {pro1 ? (
                 <Icon
                   onClick={() => {}}
@@ -76,7 +84,7 @@ export default function Projects() {
             onMouseLeave={() => setPro2(false)}
             onClick={() =>
               window.open(
-                "https://www.instagram.com/__lokeshkumar.m__/",
+                "https://lokeshkumar-dev.github.io/Musify/",
                 "_blank"
               )
             }
@@ -89,25 +97,35 @@ export default function Projects() {
             <div className="pro-box">
               <div className={"pro-description " + (!pro2 ? "op-1" : "op-0")}>
                 <ul>
+                  <li>MusicApp</li>
                   <li>ReactJs</li>
-                  <li>Node</li>
-                  <li>Express</li>
+                  <li>React Hooks</li>
+                  <li>Node/Express Js</li>
+                  <li>Axios</li>
+                  <li>MySql</li>
                 </ul>
               </div>
               <p className={"pro-description tr-d " + (pro2 ? "op-1" : "op-0")}>
                 {pro2 === true ? (
                   <>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Labore sit non totam aut vel vero delectus sunt rerum Veniam
-                    vero repellat magnam quam delectus? Blanditiis, nam ut
-                    obcaecati dolore officiis consequuntur.
+                    Musify allows users to live stream music, audio content on
+                    demand from a library.It is an Web App which recreated as
+                    spotify.
                   </>
                 ) : (
                   ""
                 )}
               </p>
             </div>
-            <button className={"pro-btn cr-p " + (pro2 ? "bg-1" : "")}>
+            <button
+              className={"pro-btn cr-p " + (pro2 ? "bg-1" : "")}
+              onClick={() =>
+                window.open(
+                  "https://github.com/LokeshKumar-Dev/Musify",
+                  "_blank"
+                )
+              }
+            >
               {pro2 ? (
                 <Icon
                   onClick={() => {}}
@@ -118,7 +136,63 @@ export default function Projects() {
               <Icon onClick={() => {}} name="arrow right pro-i" />
             </button>
           </div>
-          <div className="pro project-3">p3</div>
+          <div
+            className="pro project-3"
+            onMouseEnter={() => setPro3(true)}
+            onMouseLeave={() => setPro3(false)}
+            onClick={() =>
+              window.open(
+                "https://shiny-alfajores-355e55.netlify.app/",
+                "_blank"
+              )
+            }
+          >
+            <h3 className="pro-title ft-u lh-55">
+              Super
+              <br />
+              Dash
+            </h3>
+            <div className="pro-box">
+              <div className={"pro-description " + (!pro3 ? "op-1" : "op-0")}>
+                <ul>
+                  <li>Dashboard</li>
+                  <li>ReactJs</li>
+                  <li>Redux</li>
+                  <li>Node/Express Js</li>
+                  <li>Mongoose</li>
+                  <li>Axios/Api</li>
+                </ul>
+              </div>
+              <p className={"pro-description tr-d " + (pro3 ? "op-1" : "op-0")}>
+                {pro3 === true ? (
+                  <>
+                    This helps businesses be better manage their services and
+                    connect with customers online and mainly it uses to provide
+                    service by seller and admin.
+                  </>
+                ) : (
+                  ""
+                )}
+              </p>
+            </div>
+            <button
+              className={"pro-btn cr-p " + (pro3 ? "bg-1" : "")}
+              onClick={() =>
+                window.open(
+                  "https://github.com/LokeshKumar-Dev/SuperDash",
+                  "_blank"
+                )
+              }
+            >
+              {pro3 ? (
+                <Icon
+                  name="github pro-i"
+                  style={{ fontSize: "1.2rem", marginRight: "1rem" }}
+                />
+              ) : null}
+              <Icon onClick={() => {}} name="arrow right pro-i" />
+            </button>
+          </div>
         </div>
       </section>
     </>

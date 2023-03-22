@@ -81,8 +81,25 @@
 }
 
 /* PROJECT 3 Background Image  */
-.project-3 {
-    background-color: orangered;
+.project-3:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(162deg, rgba(235, 3, 3, 0.85), rgba(214, 31, 31, 0.1)), url(superDash.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .3s cubic-bezier(.4, .4, 0, 1);
+    filter: brightness(0.4);
+}
+
+.project-3:hover:before {
+    transform: scale(1.1);
 }
 
 /* END Background Image  */
