@@ -7,7 +7,7 @@ export default function Skills() {
 
   return (
     <>
-      <section className="about container">
+      <section id="Skills" className="about container">
         <h2 className="about-title">
           Skills
           <li

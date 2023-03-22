@@ -6,7 +6,7 @@ export default function About() {
 
   return (
     <>
-      <section className="about container">
+      <section id="about" className="about container">
         <h2 className="about-title">
           About Me
           <li

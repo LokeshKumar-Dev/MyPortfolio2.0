@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import { Icon, Button } from "semantic-ui-react";
+import { Link } from "react-scroll";
+import { Icon } from "semantic-ui-react";
 
 export default function Hero() {
   const [zoom, setZoom] = useState(false);
@@ -38,8 +39,28 @@ export default function Hero() {
             />
           </div>
           <div>
-            <button className="btn bg-w ft-b mr-10">Projects</button>
-            <button className="btn bg-w ft-b">Contact Me</button>
+            <Link
+              className="navigation__body-link "
+              to="Projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-50}
+              style={{ color: "inherit" }}
+            >
+              <button className="btn bg-w ft-b mr-10">Projects</button>
+            </Link>
+            <Link
+              className="navigation__body-link "
+              to="Contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-50}
+              style={{ color: "inherit" }}
+            >
+              <button className="btn bg-w ft-b">Contact Me</button>
+            </Link>
           </div>
         </div>
         <div className="hero-2">

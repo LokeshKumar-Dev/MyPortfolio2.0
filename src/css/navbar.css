@@ -16,7 +16,7 @@
     margin: 0 !important;
     font-size: 2.3rem;
     font-weight: 400;
-    font-family: 'Sacramento', cursive!important;
+    font-family: 'Sacramento', cursive !important;
     padding-left: .5rem;
 
     display: flex;
@@ -35,15 +35,28 @@
     color: black !important;
 }
 
-.nav__link-icon{
-    font-size: 1.7rem!important;
+.nav__link-icon {
+    font-size: 1.7rem !important;
     cursor: pointer;
 }
 
-.nav__links-sidebar{
-    width: 40%!important;
+.nav__links-sidebar {
+    width: 40% !important;
 }
 
-.nav__links-sidebar > .item > .nav__link {
-    width: 100%!important;
+.nav__links-sidebar>.item>.nav__link {
+    width: 100% !important;
+}
+
+.navigation__body-link-1::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+
+.w-100{
+    width: 100%;
 }

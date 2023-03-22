@@ -8,7 +8,7 @@ export default function Projects() {
 
   return (
     <>
-      <section className="about container">
+      <section id="Projects" className="about container">
         <h2 className="about-title">
           Projects
           <li

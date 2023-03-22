@@ -3,7 +3,7 @@ import { Icon } from "semantic-ui-react";
 
 export default function Footer() {
   return (
-    <section className="footer">
+    <section id="Contact" className="footer">
       <div className="footer-d container">
         <h2 className="nav__logo ft-b">
           Lokesh
