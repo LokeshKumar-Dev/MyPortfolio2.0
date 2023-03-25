@@ -86,7 +86,7 @@ li {
 }
 
 .cr-pen {
-  cursor: url('pen.png'), auto;
+  cursor: url('../pen.png'), auto;
 }
 
 .btn {
