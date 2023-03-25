@@ -254,7 +254,7 @@ li {
   }
 
   .nav__logo {
-    font-size: 2.9rem !important;
+    font-size: 2.2rem !important;
   }
 
   .footer- h6 {
@@ -264,5 +264,13 @@ li {
 
   .footer->.hero-1-links {
     text-align: center;
+  }
+
+  .tr-sc-2 {
+    transform: scale(1.2);
+  }
+
+  .tr-sc-2:hover {
+    transform: scale(1.2);
   }
 }
