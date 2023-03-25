@@ -11,6 +11,7 @@
 
 .pro {
     width: 50%;
+    min-height: 500px;
     border-radius: 1rem;
     transition: width .9s;
     padding: 3rem;
@@ -208,8 +209,6 @@
     font-size: 1.3rem;
 }
 
-.pro-description>ul {}
-
 .pro-description>ul>li {
     list-style: none;
     text-decoration: none;
@@ -220,4 +219,47 @@
 
 .tr-d {
     transition-delay: .5s;
+}
+
+@media only screen and (max-width: 750px) {
+    .pro-title {
+        font-size: 300%;
+    }
+
+    .pro-description {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .pro-title {
+        font-size: 200%;
+        line-height: initial;
+    }
+
+    .pro-description {
+        font-size: 1rem;
+    }
+}
+
+/* PHONE SCREEN  */
+@media only screen and (max-width: 470px) {
+    .pro {
+        width: 80%;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pro-title{
+        font-size: 400%;
+    }
+
+    .pro-box{
+        height: 180px;
+    }
 }

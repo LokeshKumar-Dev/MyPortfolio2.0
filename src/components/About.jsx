@@ -66,7 +66,7 @@ export default function About() {
                     <img className="card-img-qr" src="./qr.png" />
                   </div>
                   <div>
-                    <h4 className="card-title" style={{ fontSize: "1.5rem" }}>
+                    <h4 className="card-title about-card-title">
                       @__LOKESHKUMAR.M__
                     </h4>
                     <p style={{textAlign: "center"}}>Click or Scan to access my insta page</p>

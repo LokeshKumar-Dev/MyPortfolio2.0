@@ -28,7 +28,8 @@
     transition: transform 1s;
     transform: rotate(1deg);
 }
-.about-2-gif:hover{
+
+.about-2-gif:hover {
     transform: rotate(0deg) translateY(-10px) scale(1.05);
 }
 
@@ -54,10 +55,100 @@
     text-align: center;
 }
 
-.card-img-qr{
+.card-img-qr {
     height: inherit;
 }
 
-.card--qr{
+.card--qr {
     width: 100%;
+}
+
+.about-card-title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1010px) {
+    .about-card-title {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .card-img {
+        height: 85%;
+    }
+
+    .about-card-title {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+
+    .card--qr,
+    .card--window {
+        width: 25rem !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .about-2-gif {
+        height: 80% !important;
+    }
+
+    .about-2 {
+        align-items: center;
+    }
+
+    .card--qr,
+    .card--window {
+        width: 22rem !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .card--qr>.card--w-body {
+        flex-direction: column;
+    }
+
+    .card--qr,
+    .card--window {
+        width: 20rem !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about {
+        height: 100vh;
+    }
+}
+
+/* PHONE SCREEN  */
+@media only screen and (max-width: 470px) {
+    .about {
+        height: 100%;
+    }
+
+    .about- {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .about->* {
+        width: 80%;
+    }
+
+    .card--qr>.card--w-body {
+        flex-direction: row;
+    }
+
+    .about-2-gif {
+        height: 90% !important;
+    }
+
+    .card--qr>.card--w-body {
+        flex-direction: column;
+        padding: 2rem;
+    }
 }

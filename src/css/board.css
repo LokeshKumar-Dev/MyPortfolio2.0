@@ -63,3 +63,10 @@
 #clear-btn:hover {
     background-color: rgb(184, 184, 184);
 }
+
+/* PHONE SCREEN  */
+@media only screen and (max-width: 470px) {
+    #Skills{
+        height: 90vh;
+    }
+}
