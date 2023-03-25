@@ -46,7 +46,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: linear-gradient(160deg, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.231)), url(superService.jpg);
+    background: linear-gradient(160deg, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.231)), url(../superService.jpg);
 
     background-position: center;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: linear-gradient(162deg, rgb(20 6 177 / 85%), rgb(8 0 35 / 10%)), url(musify.jpg);
+    background: linear-gradient(162deg, rgb(20 6 177 / 85%), rgb(8 0 35 / 10%)), url(../musify.jpg);
 
     background-position: center;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: linear-gradient(162deg, rgba(235, 3, 3, 0.85), rgba(214, 31, 31, 0.1)), url(superDash.jpg);
+    background: linear-gradient(162deg, rgba(235, 3, 3, 0.85), rgba(214, 31, 31, 0.1)), url(../superDash.jpg);
 
     background-position: center;
     background-repeat: no-repeat;
@@ -112,7 +112,6 @@
 
 .wrapper {
     max-width: 100%;
-    /* overflow: hidden; */
 }
 
 .marquee {
@@ -255,11 +254,11 @@
         align-items: center;
     }
 
-    .pro-title{
+    .pro-title {
         font-size: 400%;
     }
 
-    .pro-box{
+    .pro-box {
         height: 180px;
     }
 }
