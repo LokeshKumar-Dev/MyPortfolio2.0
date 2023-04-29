@@ -84,7 +84,7 @@ export default function Hero() {
               </div>
               <div className="card--w-body"> 
                 <div className="card-img">
-                  <img className="card-img-i" src="./p2.jpg" />
+                  <img className="card-img-i" src="./p2.jpeg" />
                 </div>
                 <div>
                   <h4 className="card-title">Lokesh Kumar M</h4>
