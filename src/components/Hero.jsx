@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 
 import { Link } from "react-scroll";
 import { Icon } from "semantic-ui-react";
@@ -82,9 +82,9 @@ export default function Hero() {
                   style={{ backgroundColor: "#10cc10" }}
                 ></li>
               </div>
-              <div className="card--w-body">
+              <div className="card--w-body"> 
                 <div className="card-img">
-                  <img className="card-img-i" src="./p.jpg" />
+                  <img className="card-img-i" src="./p2.jpg" />
                 </div>
                 <div>
                   <h4 className="card-title">Lokesh Kumar M</h4>
